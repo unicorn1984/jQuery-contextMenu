@@ -12,7 +12,7 @@
  *   MIT License http://www.opensource.org/licenses/mit-license
  *   GPL v3 http://opensource.org/licenses/GPL-3.0
  *
- * Date: 2015-10-28T15:16:15.572Z
+ * Date: 2015-11-02T11:18:54.050Z
  */
 
 (function (factory) {
@@ -1318,6 +1318,7 @@
                     .css({height: $win.height(), width: $win.width(), display: 'block'})
                     .data('contextMenuRoot', opt)
                     .insertBefore(this)
+                    .css({ visibility: 'visible' })
                     .on('contextmenu', handle.abortevent)
                     .on('mousedown', handle.layerClick);
 

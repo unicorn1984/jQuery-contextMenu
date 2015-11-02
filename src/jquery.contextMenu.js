@@ -1318,6 +1318,7 @@
                     .css({height: $win.height(), width: $win.width(), display: 'block'})
                     .data('contextMenuRoot', opt)
                     .insertBefore(this)
+                    .css({ visibility: 'visible' })
                     .on('contextmenu', handle.abortevent)
                     .on('mousedown', handle.layerClick);
 
