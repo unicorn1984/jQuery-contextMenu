@@ -12,7 +12,7 @@
  * Licensed under
  *   MIT License http://www.opensource.org/licenses/mit-license
  *
- * Date: 2015-11-02T11:18:53.411Z
+ * Date: 2015-11-02T12:03:07.190Z
  */
 @font-face {
   font-family: "context-menu-icons";
@@ -103,8 +103,8 @@
 .context-menu-list {
   position: absolute; 
   display: inline-block;
-  min-width: 180px;
-  max-width: 360px;
+  min-width: 100px;
+  max-width: 200px;
   padding: 4px 0;
   margin: 5px;
   font-family: inherit;
